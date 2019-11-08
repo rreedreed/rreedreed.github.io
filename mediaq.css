@@ -1,0 +1,35 @@
+/*======================================
+			media queries
+======================================*/
+
+/*up to large tablet screens*/
+@media screen and (max-width: 800px) {
+	.btn, div.dropdown  {
+		width: 45%;
+	}
+	.btn-ext {
+		width: 29%;
+	}
+	
+	img, #green_roof_image, #native_plant_garden_image, #patio_garden_image, .electricity_meter_image, .sink_faucet_image {
+		display: block;
+		width: 90%;
+		margin: 5%;
+	}
+	
+	section, form, #roof, #patio, #garden, .energy_calculator, .water_calculator {
+		display: block;
+		width: 90%;
+		margin: 5%;
+	}
+}
+
+/*smartphones*/
+@media screen and (max-width: 470px) {
+	.energyTeaser, .interiorTeaser, .exteriorTeaser {
+		display: block;
+		margin: 4%;
+		float: none;
+		width: 90%;
+	}
+}

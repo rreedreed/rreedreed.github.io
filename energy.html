@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Energy Sustainability</title>
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="pages.css">
+		<link rel="stylesheet" href="mediaq.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	</head>
+	
+<!-- page about energy usage and efficiency -->
+	
+	<body id="top">
+		<header>
+			<div role="navigation" class="headnav">
+				<a href="index.html" role="menuitem" class="btn">Home</a>
+				<a href="energy.html" role="menuitem" class="btn">Energy</a>
+				<a href="interior.html" role="menuitem" class="btn">Interior</a>
+
+<!-- dropdown menu -->
+				<div class="dropdown" data-test="true" aria-haspopup="true">
+					<a href="#" role="menuitem" class="btn">Exterior</a>
+					<div class="dropdown-menu" role="menu" >
+						<a href="exterior.html" role="menuitem" tabindex="-1">Exterior</a><br>
+						<a href="exterior.html#roof" role="menuitem" tabindex="-1">Roof</a><br>
+						<a href="exterior.html#patio" role="menuitem" tabindex="-1">Patio</a><br>
+						<a href="exterior.html#garden" role="menuitem" tabindex="-1">Garden</a>
+					</div>
+				</div>
+				<a href="form-page.html" class="btn">Get Involved</a>
+<!-- styles menu -->
+				<div class="dropdown" data-test="true" aria-haspopup="true">
+					<a href="#" role="menuitem" class="btn">Settings</a>
+						<div class="dropdown-menu" role="menu">
+							<button onclick="increaseText()">Increase Font Size</button>
+							<button onclick="highContrast()">High Contrast Mode</button>
+				</div>
+			</div>			
+		</header>
+		<br>
+		
+		<section role="banner" class="container">
+			<h1>Energy Usage</h1>
+			<br>
+			<h5>Get an idea of how you use energy in your home, and how you can be more efficient.</h5>
+		</section>
+		<br>
+		
+		<img src="images/electricity_meter.png" alt="Image of an analog electricity meter." title= "source: commons.wikimedia.org" class="electricity_meter_image">
+		
+		<!-- energy use calculator info -->
+		<section role="main" class="energy_calculator">
+			<p>Energy calculators are a great way to get a general idea of how much electricity the appliances you own use and how much they cost you per month and per year.</p>
+			<p>An energy usage calculator such as this one: <a href="https://www.energyusecalculator.com/">energyusecalculator.com</a> will help you see what the appliances you have are using and costing you.</p>
+			<p>Use the information you found to help guide future energy use decisions.</p>
+		</section>
+		
+		<!-- water use calculator info 	-->		
+		<section role="main" class="water_calculator">
+			<p>There are also water use calculators that show you how much water you use in your daily life, directly and indirectly.</p>
+			<p><a href="https://www.watercalculator.org/">Watercalculator.org</a> is one such site that gives a detailed overview of how your plumbing fixtures, habits, diet, and even preferred mode of transportation affect how much water you use in a day. It also gives tips on how to reduce your water use, something that will become more important as fresh water resources in metropolitan areas become scarcer.</p>
+		</section>
+		<img src="images/sink_faucet.jpg" alt="Image of water coming out of a silver sink faucet." title="Source: flickr.com" class="sink_faucet_image">
+		<br>
+		
+		<footer>
+			<nav class="footnav">
+				<a href="index.html">Home</a>
+				<a href="energy.html">Energy</a>
+				<a href="interior.html">Interior</a>
+				<a href="exterior.html">Exterior</a>
+				<a href="form-page.html">Get Involved</a>
+			</nav>
+			
+			<a href="mailto: hreed@my.uri.edu">Contact me</a>
+			<a href="#top">Jump to top</a>
+			
+			<small>&copy; Reed Reed</small>
+		</footer>
+		<script src="pageFunctions.js"></script>
+	</body>
+</html>

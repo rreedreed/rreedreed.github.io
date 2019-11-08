@@ -1,0 +1,137 @@
+/* ===========================================
+			homepage specific
+============================================*/
+/* teasers navigation */
+.teasers:before, .teasers:after{
+	content: "";
+	display: table;
+}
+.teasers:after{
+	clear: both;
+}
+.teasers {
+	clear: both;
+}
+
+.energyTeaser, .interiorTeaser, .exteriorTeaser {
+	float: left;
+	margin: 0 1.5%;
+	width: 30%;
+}
+
+.logo {
+	float: right;
+	width: 100px;
+}
+
+/* ===========================================
+			energy page specific
+============================================*/
+.rooftop_solar_image {
+	display: none;
+}
+
+.electricity_meter_image, .sink_faucet_image {
+	display: inline-block;
+	width: 40%;
+	margin: 1.5%;
+}
+
+.energy_calculator, .water_calculator{
+	display: inline-block;
+	width: 50%;
+	padding: 5px;
+	background-color: #fdf1ec;
+	border: 2px solid #f58a5c;
+	margin: 2%;
+	position: relative;
+	bottom: 20px;
+}
+
+
+/* ===========================================
+			interior page specific
+============================================*/
+.kitchen, .living_room, .bedroom, .bathroom, .homeowners {
+	background-color: #fdf1ec;
+	border: 2px solid #f58a5c;
+	padding: 10px;
+	margin: 10px;
+}
+
+.kitchen_image, .living_room_image,
+.bedroom_image, .bathroom_image {
+	display: inline-block;
+	margin: 20px;
+}
+
+
+
+/* ===========================================
+			exterior page specific
+============================================*/ 
+.exteriorPageNav {
+	font-size: 20px;
+}
+ /* quick links buttons */
+.btn-ext {
+	width: 29%
+}
+
+.exteriorhead {
+	width: 50%;
+}
+
+#roof, #patio, #garden {
+	display: inline-block;
+	width: 45%;
+	border: 2px solid #fac2a9;
+	border-radius: 5px;
+	margin: 20px;
+}
+
+#green_roof_image, #native_plant_garden_image, #patio_garden_image {
+	display: inline-block;
+	width: 40%;
+	margin: 20px;
+}
+
+button {
+	display: inline-block;
+	background-image: url("images/button-bg.jpg");
+	color: #777122;
+	text-align: center;
+	border: 2px solid #888233;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 12px 1.5%;
+}
+
+/*==========================================
+			form page specific
+===========================================*/
+form {
+  border: 2px solid #888233;
+  border-radius: 5px;
+  font: 15px/1.4 Sans-serif;
+  color: #575613;
+  overflow: hidden;
+  width: 50%;
+  background-color: #fdf1ec;
+  margin: 2%;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 10px;
+}
+legend {
+	font-size: 25px;
+}
+
+input {
+  border-radius: 5px;
+  font: 14px/1.4 sans-serif;
+  margin: 10px;
+  width: 200px;
+}

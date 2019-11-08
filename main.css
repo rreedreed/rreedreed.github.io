@@ -1,0 +1,266 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* color palette
+orangeDark: #fa9103 // darkorange
+orangeMed: #fdb65a // sandybrown
+orangeLight: #fecb85 // khaki
+orangePale: #fee3c0 // bisque
+
+peachDark: #f58a5c // coral
+peachMed: #fac2a9 // lightpink
+peachLight: #fcd0be // peachpuff
+peachPale: #fde8df // mistyrose
+
+greenDark: #888233 // olivedrab
+greenMed: #a89f40 // peru
+greenLight: #c2bb5f // darkkhaki
+greenPale: #e3e0b7 // wheat
+
+pinkDark: #b51125 // firebrick
+pinkMed: #f27585 // lightcoral
+pinkLight: #f8b1ba // lightpink
+pinkPale: #fcd8dc // mistyrose
+
+blackGreen: #575613 // darkolivegreen
+*/
+
+/* box sizing */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  padding: 1.4%;
+  width: 100%;
+  background-image: url("images/banner1.jpg");
+}
+
+
+/* headers font */
+h1, h2, h3, h4, h5, h6 {
+	color: #f27585;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 1.8%;
+	line-height: 100%;
+}
+
+h1 {
+	font-size: 360%;
+}
+
+h2 {
+	font-size: 300%;
+}
+
+h3 {
+	font-size: 270%;
+}
+
+h4 {
+	font-size: 220%;
+}
+
+h5 {
+	font-size: 190%;
+}
+
+h6 {
+	font-size: 150%;
+}
+
+/* paragraphs and special text */
+p {
+	color: #575613;
+	font-size: 120%;
+	font-family: Sans-serif;
+	line-height: 120%;
+	margin: 2%;
+}
+
+/* anchors */
+a {
+	font-family: Sans-serif;
+	color: #f27585;
+}
+a:hover {
+	color: #b51125;
+}
+
+/* lists and tables */
+ul, ol, table {
+	background-color:#faeedf;
+	color: #888233;
+	font-family: Sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	margin: 10px;
+	padding: 10px;
+}
+
+/* tables sepcific */
+caption {
+	background-color: #ffe9eb;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 40px;
+}
+th{
+	font-size: 23px;
+	text-decoration: underline;
+	line-height: 40px;
+}
+tr {
+	line-height: 40px;
+}
+
+/* top of page navigation table */
+.headnav:before, .headnav:after{
+	content: "";
+	display: table;
+}
+.headnav:after{
+	clear: both;
+}
+.headnav {
+	clear: both;
+	line-height: 30px;
+	width: 100%;
+}
+
+/*dropdown menu*/
+div.dropdown {
+	display: inline-block;
+	width: 16%;
+}
+div.dropdown a.btn {
+	width: 100%;
+}
+.dropdown-menu {
+	display: none;
+	position: absolute;
+}
+.dropdown:hover .dropdown-menu{
+	/*position: absolute;*/
+	display: block;
+	background-image: url("images/button-bg.jpg");
+	padding: 5px;
+	border: 2px solid #888233;
+	border-radius: 5px;
+	width: 16%;
+}
+
+
+
+/* 
+========================
+		buttons 
+========================
+*/
+.btn {
+	display: inline-block;
+	background-image: url("images/button-bg.jpg");
+	color: #777122;
+	text-align: center;
+	border: 2px solid #888233;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 12px 1.5%;
+	width: 13%;
+}
+
+/* header type */
+header {
+	background-color: #ffe9eb;
+	background-image: url("images/banner1.jpg");
+	color: #f58a5c;
+}
+
+/* footer */
+footer {
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	color: #f58a5c;
+	background-color: #ffe9eb;	
+	line-height: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 100%;
+}
+
+.footnav {
+	display: inline-block;
+	margin-right: 30%;
+}
+small {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+/* supplementary css to customize page recreate */
+.btn-green {
+	background-color: #487155;
+	color: #fada37;
+}
+
+.btn-green:hover, .btn-green:active {
+	background-color: #fada37;
+	color: #487155
+}
+
+.jumbotron {
+	background-color: #cfe0b4;
+}
+
+.navbar {
+	background-color: #c29309;
+}
+
+/*
+.container {
+	width: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+*/
+
+h1, h3 {
+	color: #593945;
+}
+
+small {
+	color: #c29309;
+}
+
+p {
+	color: #7e4154;
+}

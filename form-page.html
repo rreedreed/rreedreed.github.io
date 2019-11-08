@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Your Sustainability Story</title>
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="pages.css">
+		<link rel="stylesheet" href="mediaq.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	</head>
+	
+	<body id="top">
+		<header>
+			<div role="navigation" class="headnav">
+				<a href="index.html" role="menuitem" class="btn">Home</a>
+				<a href="energy.html" role="menuitem" class="btn">Energy</a>
+				<a href="interior.html" role="menuitem" class="btn">Interior</a>
+
+<!-- dropdown menu -->
+				<div class="dropdown" data-test="true" aria-haspopup="true">
+					<a href="#" role="menuitem" class="btn">Exterior</a>
+					<div class="dropdown-menu" role="menu" >
+						<a href="exterior.html" role="menuitem" tabindex="-1">Exterior</a><br>
+						<a href="exterior.html#roof" role="menuitem" tabindex="-1">Roof</a><br>
+						<a href="exterior.html#patio" role="menuitem" tabindex="-1">Patio</a><br>
+						<a href="exterior.html#garden" role="menuitem" tabindex="-1">Garden</a>
+					</div>
+				</div>
+				<a href="form-page.html" class="btn">Get Involved</a>
+<!-- styles menu -->
+				<div class="dropdown" data-test="true" aria-haspopup="true">
+					<a href="#" role="menuitem" class="btn">Settings</a>
+						<div class="dropdown-menu" role="menu">
+							<button onclick="increaseText()">Increase Font Size</button>
+							<button onclick="highContrast()">High Contrast Mode</button>
+						</div>
+				</div>
+			</div>			
+		</header>
+		<br>
+		
+		<section role="banner" class="container">
+			<h1>Get involved</h1>
+			<br>
+			<h5>Share your sustainability story.</h5>
+		</section>
+		
+		<p> </p>
+		<br>
+
+<!-- more-information-email form -->
+		<form action="MAILTO:catsworld22@gmail.com" method="post" enctype="text/plain" name="EmailTestForm" class="form">
+			<fieldset>
+				<legend>More Information</legend>
+				<label>E-mail address:
+				<input type="email" name="email" id="email" required></label> <br>
+				<label>How often would you like to recieve our e-mails?
+				<select name="interval" required>
+					<option value="weekly">Weekly</option>
+					<option value="monthly">Monthly</option>
+					<option value="never">Never</option>
+				</select></label><br>
+				<label>How did you hear about us?<input type="text" name="hear-say" id="hear-say"></label>
+				<br><br>
+				<button name="submit" class="btn" >
+					Submit
+				</button>
+			</fieldset>
+		</form>
+		
+	<footer>
+			<nav class="footnav">
+				<a href="index.html">Home</a>
+				<a href="energy.html">Energy</a>
+				<a href="interior.html">Interior</a>
+				<a href="exterior.html">Exterior</a>
+				<a href="form-page.html">Get Involved</a>
+			</nav>
+			
+			<a href="mailto: hreed@my.uri.edu">Contact me</a>
+			<a href="#top">Jump to top</a>
+			
+			<small>&copy; Reed Reed</small>
+		</footer>
+		<script src="pageFunctions.js"></script>
+	</body>
+</html>

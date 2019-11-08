@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Domestic Sustainability</title>
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="pages.css">
+		<link rel="stylesheet" href="mediaq.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	</head>
+	
+	<body id="top">
+		<header>
+			<div role="navigation" class="headnav">
+				<a href="index.html" role="menuitem" class="btn">Home</a>
+				<a href="energy.html" role="menuitem" class="btn">Energy</a>
+				<a href="interior.html" role="menuitem" class="btn">Interior</a>
+
+<!-- dropdown menu -->
+				<div class="dropdown" data-test="true" aria-haspopup="true">
+					<a href="#" role="menuitem" class="btn">Exterior</a>
+					<div class="dropdown-menu" role="menu">
+						<a href="exterior.html" role="menuitem" tabindex="-1">Exterior</a><br>
+						<a href="exterior.html#roof" role="menuitem" tabindex="-1">Roof</a><br>
+						<a href="exterior.html#patio" role="menuitem" tabindex="-1">Patio</a><br>
+						<a href="exterior.html#garden" role="menuitem" tabindex="-1">Garden</a>
+					</div>
+				</div>
+				<a href="form-page.html" class="btn">Get Involved</a>
+<!-- styles menu -->
+				<div class="dropdown" data-test="true" aria-haspopup="true">
+					<a href="#" role="menuitem" class="btn">Settings</a>
+						<div class="dropdown-menu" role="menu">
+							<button onclick="increaseText()">Increase Font Size</button>
+							<button onclick="highContrast()">High Contrast Mode</button>
+				</div>
+			</div>			
+		</header>
+		<br>
+		
+		<section role="banner" class="container homehead">
+			<h1 class="container">
+			<a href="index.html">Domestic 	Sustainability</a><img src="images/logo2.png" class="logo" alt="Image of a circular logo in green and pink whose text says 'sustainability of things'.">
+			</h1>
+			<br>
+			<h2>Making Sustainability Attainable</h2>
+			<p>Everyday solutions for curating a more eco-friendly, sustainable lifestyle without breaking your wallet.</p>
+		</section>
+		<br>
+		<br>
+		
+<!-- Information on the other pages mentioned in nav -->
+		<section role="main" class="teasers">
+			<section class="energyTeaser">
+				<a href="energy.html">
+					<h4>Energy Usage</h4>
+				</a>
+				<p>Get an idea of how you use energy in your home, and how you can be more efficient.</p>
+			</section>
+
+			<section class="interiorTeaser">
+				<a href="interior.html">	
+					<h4>Interior</h4>
+				</a>
+				<p>Take stock of the rooms in your home, what you furnish them with, and what to consider when upgrading.</p>
+			</section>
+
+			<section class="exteriorTeaser">
+				<a href="exterior.html">
+					<h4>Exterior</h4>
+				</a>
+				<p>See how you can make the space outside your home work best for you and your sustainability goals.</p>
+			</section>
+		</section>
+		<br>
+		<br>
+		
+		<footer>
+			<nav class="footnav">
+				<a href="index.html">Home</a>
+				<a href="energy.html">Energy</a>
+				<a href="interior.html">Interior</a>
+				<a href="exterior.html">Exterior</a>
+				<a href="form-page.html">Get Involved</a>
+			</nav>
+			
+			<a href="mailto: hreed@my.uri.edu">Contact me</a>
+			<a href="#top">Jump to top</a>
+			
+			<small>&copy; Reed Reed</small>
+		</footer>
+		<script src="pageFunctions.js"></script>
+	</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Exterior Sustainability</title>
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="pages.css">
+		<link rel="stylesheet" href="mediaq.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	</head>
+	
+<!-- page about the exterior; the roof, patio, and garden -->
+
+	<body id="top">
+		<header>
+			<div role="navigation" class="headnav">
+				<a href="index.html" role="menuitem" class="btn">Home</a>
+				<a href="energy.html" role="menuitem" class="btn">Energy</a>
+				<a href="interior.html" role="menuitem" class="btn">Interior</a>
+
+<!-- dropdown menu -->
+				<div class="dropdown" data-test="true" aria-haspopup="true">
+					<a href="#" role="menuitem" class="btn">Exterior</a>
+					<div class="dropdown-menu" role="menu" >
+						<a href="exterior.html" role="menuitem" tabindex="-1">Exterior</a><br>
+						<a href="#roof" role="menuitem" tabindex="-1">Roof</a><br>
+						<a href="#patio" role="menuitem" tabindex="-1">Patio</a><br>
+						<a href="#garden" role="menuitem" tabindex="-1">Garden</a>
+					</div>
+				</div>
+				<a href="form-page.html" class="btn">Get Involved</a>
+				
+<!-- styles menu -->
+				<div class="dropdown" data-test="true" aria-haspopup="true">
+					<a href="#" role="menuitem" class="btn">Settings</a>
+						<div class="dropdown-menu" role="menu">
+							<button onclick="increaseText()">Increase Font Size</button>
+							<button onclick="highContrast()">High Contrast Mode</button>
+						</div>
+				</div>
+			</div>			
+		</header>
+		<br>
+		
+		<section role="banner" class="container">
+			<h1>Roof, Patio, Garden</h1>
+			<br>
+			<h5>See how you can make the space outside your home work best for you and your sustainability goals.</h5>
+		</section>
+		<br>
+		
+		<nav role="navigation" aria-label= "Within Page Navigation" class="exteriorPageNav">
+			<a href="#roof" class= "btn btn-ext">Roof</a>
+			<a href="#patio" class= "btn btn-ext">Patio</a>
+			<a href="#garden" class= "btn btn-ext">Garden</a>
+		</nav>
+		<br>
+
+		<div role="main" class="ext-info">
+<!-- section on sustainable roofing. Should add links/pictures for examples -->
+			<section id="roof">
+				<h4>Roofing</h4>
+				<p>If you are a homeowner or are planning on building a new home, there are a variety of options to choose from in how to make your roof work best for you.</p>
+				<button ondblclick="photoSwitch()">Double click to see a solar roof</button>
+				<br>
+				<ul>
+					<li>Solar Panels</li>
+					<li>Green Roof</li>
+					<li>Rain Roof</li>
+					<li>Roof Garden</li>
+					<li>Sustainable Roofing</li>
+				</ul>
+			</section><!--
+			
+			--><img src="images/green_roof.jpg" alt="Image of a two-storey, light brown house whose roof is made of grass." title="Source: commons.wikimedia.org" id="green_roof_image">
+			<br>					
+			
+			
+	<!-- section on patio/porch/balcony things. Probably make these ideas make more sense or sound more professional. Also add some example pictures -->
+			<section id="patio">
+				<h4>Patio</h4>
+				<p>Whether your home has only a patio, porch, or balcony or has a yard as well, there are things you can do with this built-up space to service your needs.</p>
+				<br>
+				<ul>
+					<li>Vertical Gardening</li>
+					<li>Potted Plants</li>
+					<li>Rain Collecting</li>
+					<li>Clothesline</li>
+				</ul>
+			</section><!--
+			
+			--><img src="images/patio_garden.jpg" alt="Image of six terra cotta pots growing herbs and strawberry plants. The pots are on a stone tiled patio." title="Source: flickr.com" id="patio_garden_image">
+			
+			<br>
+
+	<!-- section on garden/yard things. Add pictures!!! The people like to see things. Also, sound more like a professional website please -->
+			<section id="garden">
+				<h4>Garden</h4>
+				<p>If your home has a garden or yard attached, you can do some neat things.</p>
+				<br>
+				<ul>
+					<li>Native Plants</li>
+					<li>Pollinator Garden</li>
+					<li>Drainage</li>
+					<li>Solar in your yard!</li>
+					<li>Rain Collecting</li>
+				</ul>
+			</section><!--
+			
+			--><img src="images/native_plant_garden.jpg" alt="Image of a small yard with pink and yellow flowers growing. There is a sculpture of a snail in the foreground and a white house in the background." title="Source: flickr.com" id="native_plant_garden_image">
+		</div>
+		<br>
+		<br>
+		
+		<footer>
+			<nav class="footnav">
+				<a href="index.html">Home</a>
+				<a href="energy.html">Energy</a>
+				<a href="interior.html">Interior</a>
+				<a href="exterior.html">Exterior</a>
+				<a href="form-page.html">Get Involved</a>
+			</nav>
+			
+			<a href="mailto: hreed@my.uri.edu">Contact me</a>
+			<a href="#top">Jump to top</a>
+			
+			<small>&copy; Reed Reed</small>
+		</footer>
+		<script src="pageFunctions.js"></script>
+	</body>
+</html>
